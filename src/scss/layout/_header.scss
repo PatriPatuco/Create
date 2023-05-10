@@ -1,5 +1,33 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+  &__title {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+
+    &--logo {
+      width: 4.5rem;
+      padding-right: 1rem;
+    }
+
+    &--text {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem 0;
+    background-color: red;
+
+    &--item a {
+      font-size: 1.4rem;
+      text-decoration: none;
+      color: white;
+    }
+  }
 }

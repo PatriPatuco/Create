@@ -2,7 +2,12 @@
 @import 'core/reset';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'pages/section';
-@import 'aside/section';
+@import 'layout/section';
+@import 'layout/aside';
 
 
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: $font-main;
+  }
