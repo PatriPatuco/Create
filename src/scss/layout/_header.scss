@@ -2,7 +2,7 @@
   background-color: $orange;
   min-height: 10vh;
 
-  @media all and (min-width: 1024px) {
+  @media (min-width: 1024px) {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,7 +24,7 @@
       font-weight: bold;
       font-size: 2.5rem;
 
-      @media all and (min-width: 500px) {
+      @media (min-width: 500px) {
         font-size: 3.4rem;
       }
 
@@ -49,12 +49,12 @@
         background-color: $light-red;
       }
 
-      @media all and (min-width: 500px) {
+      @media (min-width: 500px) {
         font-size: 1.8rem;
       }
 
 
-      @media all and (min-width: 1024px) {
+      @media (min-width: 1024px) {
         width: 15rem;
       }
     }
