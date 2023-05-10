@@ -1,6 +1,6 @@
 .header {
   &__title {
-    background-color: orange;
+    background-color: $orange;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
     justify-content: space-around;
     gap: 1rem;
     padding: 1rem 0;
-    background-color: red;
+    background-color: $red;
 
     &--item a {
       font-size: 1.4rem;
