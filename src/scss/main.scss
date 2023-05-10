@@ -10,6 +10,14 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
     font-family: $font-main;
+    background-color: lightgray;
+  }
+
+  .main {
+    @media all and (min-width: 1024px) {
+      display: flex;
+      margin: 0 6rem;
+    }
   }
 
   .link {

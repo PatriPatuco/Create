@@ -6,6 +6,13 @@
   justify-content: center;
   padding: 2rem 0;
 
+  @media all and (min-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 7rem;
+  }
+
   &__links {
     &--menu {
       display: flex;
