@@ -1,26 +1,38 @@
 .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 70vh;
+  padding: 2rem;
   background-color: white;
-  @media all and (min-width: 1024px) {
-    flex-direction: row;
-    height: 73.4vh;
+
+  @media all and (min-width: 500px) {
+    min-height: 72.2vh;
   }
 
   &__article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 
     &--title {
       font-size: 2rem;
       font-weight: bold;
-      padding-bottom: 1rem;
+      padding-bottom: 1.5rem;
+
+      @media all and (min-width: 500px) {
+        font-size: 2.5rem;
+      }
     }
 
     &--paragraph {
       font-size: 1.4rem;
+
+      @media all and (min-width: 500px) {
+        font-size: 1.6rem;
+      }
+
+      @media all and (min-width: 500px) {
+        font-size: 1.8rem;
+      }
     }
 
     &:nth-child(2) {

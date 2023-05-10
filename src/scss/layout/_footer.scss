@@ -5,13 +5,17 @@
   align-items: center;
   justify-content: center;
   padding: 2rem 0;
+  min-height: 10vh;
 
   @media all and (min-width: 1024px) {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 2rem 7rem;
+    min-height: 10vh;
   }
+
+  
 
   &__links {
     &--menu {
@@ -19,10 +23,16 @@
       background-color: $red;
 
       &--item {
+        font-size: 1.4rem;
         text-align: center;
         padding: 1.5rem 0;
         width: 7rem;
-        font-size: 1.4rem;
+        cursor: pointer;
+        transition: background-color 0.5s;
+
+        &:hover {
+          background-color: $light-red;
+        }
       }
     }
   }
@@ -33,10 +43,16 @@
       background-color: $dark-red;
 
       &--item {
+        font-size: 1.4rem;
         text-align: center;
         padding: 1.5rem 0;
         width: 7rem;
-        font-size: 1.4rem;
+        cursor: pointer;
+        transition: background-color 0.5s;
+
+        &:hover {
+          background-color: $light-red;
+        }
       }
     }
   }
