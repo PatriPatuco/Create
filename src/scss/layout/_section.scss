@@ -15,21 +15,22 @@
         }
 
         &--paragraph{
-            font-size: 1.4rem;
+            font-size: 1.4rem;  
+        }
+
+        &:nth-child(2) {
+            padding: 2rem 0;
+            border-top: 0.1rem solid black;
+            border-bottom: 0.1rem solid black ;
+        }
+    
+        &:nth-child(2) p{
+            width: 80%;
+            margin: 0 auto;
+            padding-left: 2rem;
+            border-left: 0.35rem solid lightgray;
         }
         
     }
 
-    article:nth-child(2) {
-        padding: 1rem 0;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black ;
-    }
-
-    article:nth-child(2) p{
-        width: 80%;
-        margin: 0 auto;
-        padding-left: 2rem;
-        border-left: 3.5px solid lightgray;
-    }
 }

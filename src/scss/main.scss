@@ -11,3 +11,9 @@ html {
     box-sizing: border-box;
     font-family: $font-main;
   }
+
+  .link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+  }

@@ -1,0 +1,36 @@
+.footer {
+  background-color: $orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+
+  &__links {
+    &--menu {
+      display: flex;
+      background-color: $red;
+
+      &--item {
+        text-align: center;
+        padding: 1.5rem 0;
+        width: 7rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  &__SM {
+    &--menu {
+      display: flex;
+      background-color: $dark-red;
+
+      &--item {
+        text-align: center;
+        padding: 1.5rem 0;
+        width: 7rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
